@@ -1,0 +1,38 @@
+<html>
+   <head>
+     <title>Estilos</title>
+     <style type="text/css">
+       #id1,
+       #id2,
+       #id {
+         color: red;
+       }
+
+       ul li.important {
+         color: green;
+       }
+
+       ul li {
+         color: blue;
+       }
+
+       li.important {
+         color: yellow;
+       }
+
+       li {
+         color: purple;
+       }
+     </style>
+   </head>
+   <body>
+     <h1>Especifidad en los selectores</h1>
+     <ul>
+       <li>Sin estilo.</li>
+       <li class="important">Con clase.</li>
+       <li id="id1">Con id.</li>
+       <li id="id2" class="important">Con id y clase.</li>
+       <li id="id3" class="important" style="color:pink"> Con id, clase y style.</li>
+     </ul>
+   </body>
+ </html>
